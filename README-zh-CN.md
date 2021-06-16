@@ -1,17 +1,17 @@
 # 自上而下的学习路线: 软件工程师的机器学习
 
 
-灵感来源于 [谷歌面试学习手册](https://github.com/jwasham/coding-interview-university/blob/master/translations/README-cn.md)
+参考自 [自上而下的学习路线: 软件工程师的机器学习](https://github.com/ZuzooVn/machine-learning-for-software-engineers/blob/master/README-zh-CN.md)
 
 
-> * 原文地址：[Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
+> * 原文地址：[Top-down learning path: Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
 > * 原文作者：[ZuzooVn(Nam Vu)](https://github.com/ZuzooVn)
 > * 翻译：[lsvih](https://github.com/lsvih)
 
 
 ## 这是？
 
-这是本人为期数月的学习计划。我正要从一名移动端软件开发者(自学，无计科文凭)转型成为一名机器学习工程师。
+这是本人为期数月的学习计划。我正要从一名软件开发者（我是计算机专业人工智能方向的硕士，毕业后却遗憾没能从事对应的算法工作，只是在做软件开发）转型成为一名机器学习算法工程师。
 
 我的主要目标是找到一种以实践为主的学习方法，并为初学者抽象掉大多数的数学概念。
 这种学习方法是非传统的，因为它是专门为软件工程师所设计的自上而下、以结果为导向的学习方法。
@@ -56,12 +56,12 @@
 
 ## 为何要用到它？
 
-我会为了我未来的工作————机器学习工程师 遵循这份计划。自2011年以来，我一直进行着移动端应用的开发(包括安卓、iOS与黑莓)。我有软件工程的文凭，但没有计算机科学的文凭。我仅仅在大学的时候学习过一点基础科学，包括微积分、线性代数、离散数学、概率论与统计。
+我会为了我未来的工作————机器学习工程师 遵循这份计划。自2020年以来，我一直进行着软件开发。我有计算机专业的硕士学历。我一直很喜欢数学。
 我认真思考过我在机器学习方面的兴趣:
-- [我能在没有计科硕士、博士文凭的情况下找到一份关于机器学习的工作吗？](https://www.quora.com/Can-I-learn-and-get-a-job-in-Machine-Learning-without-studying-CS-Master-and-PhD)
-    - *"你当然可以，但是我想进入这个领域则无比艰难。"* [Drac Smith](https://www.quora.com/Can-I-learn-and-get-a-job-in-Machine-Learning-without-studying-CS-Master-and-PhD/answer/Drac-Smith?srid=oT0p)
-- [我是一名软件工程师，我自学了机器学习，我如何在没有相关经验的情况下找到一份关于机器学习的工作？](https://www.quora.com/How-do-I-get-a-job-in-Machine-Learning-as-a-software-programmer-who-self-studies-Machine-Learning-but-never-has-a-chance-to-use-it-at-work)
-    - *"我正在为我的团队招聘机器学习专家，但你的MOOC并不会给你带来工作机会。事实上，大多数机器学习方向的硕士也并不会得到工作机会，因为他们（与大多数上过MOOC的人一样）并没有深入地去理解。他们都没法帮助我的团队解决问题。"* [Ross C. Taylor](https://www.quora.com/How-do-I-get-a-job-in-Machine-Learning-as-a-software-programmer-who-self-studies-Machine-Learning-but-never-has-a-chance-to-use-it-at-work/answer/Ross-C-Taylor?srid=oT0p)
+
+- 我本身就是计算机专业人工智能方向的硕士，在校期间学习的就是机器学习深度学习这些，没理由不从事相关工作。
+- [我是一名软件工程师，读研期间学习的就是机器学习、深度学习，曾经在一家人工智能企业做过机器学习方面的实习工作。为什么我还是无法找到一份关于机器学习的工作？](https://www.quora.com/How-do-I-get-a-job-in-Machine-Learning-as-a-software-programmer-who-self-studies-Machine-Learning-but-never-has-a-chance-to-use-it-at-work)
+    - *"我正在为我的团队招聘机器学习专家，事实上，大多数机器学习方向的硕士并不会得到工作机会，因为他们（与大多数上过MOOC的人一样）并没有深入地去理解。他们都没法帮助我的团队解决问题。"* [Ross C. Taylor](https://www.quora.com/How-do-I-get-a-job-in-Machine-Learning-as-a-software-programmer-who-self-studies-Machine-Learning-but-never-has-a-chance-to-use-it-at-work/answer/Ross-C-Taylor?srid=oT0p)
 - [找一份机器学习相关的工作需要掌握怎样的技能？](http://programmers.stackexchange.com/questions/79476/what-skills-are-needed-for-machine-learning-jobs)
     - *"首先，你得有正儿八经的计科或数学专业背景。ML是一个比较先进的课题，大多数的教材都会直接默认你有以上背景。其次，机器学习是一个集成了许多子专业的奇技淫巧的课题，你甚至会想看看MS的机器学习课程，去看看他们的授课、课程和教材。"* [Uri](http://softwareengineering.stackexchange.com/a/79717)
     - *"统计，假设，分布式计算，然后继续统计。"* [Hydrangea](http://softwareengineering.stackexchange.com/a/79575)
@@ -72,7 +72,7 @@
 - 实用机器学习： 这个方向主要是查询数据库、数据清洗、写脚本来转化数据，把算法和库结合起来再加上一些定制化的代码，从数据中挤出一些准确的答案来证明一些困难且模糊不清的问题。实际上它非常混乱。
 - 理论机器学习： 这个方向主要是关于数学、抽象、理想状况、极限条件、典型例子以及一切可能的特征。这个方向十分的干净、整洁，远离混乱的现实。
 
-我认为对于以实践为主的人来说，做好的方法就是 [“练习--学习--练习”](http://machinelearningmastery.com/machine-learning-for-programmers/#comment-358985)，这意味着每个学生一开始就能参与一些现有项目与一些问题，并练习（解决）它们以熟悉传统的方法是怎么做的。在有了一些简单的练习经验之后，他们就可以开始钻进书里去学习理论知识。这些理论知识将帮助他们在将来进行更进一步的训练，充实他们解决实际问题的工具箱。学习理论知识还会加深他们对那些简单练习的理解，帮助他们更快地获得进阶的经验。
+我认为对于以实践为主的人来说，最好的方法就是 [“练习--学习--练习”](http://machinelearningmastery.com/machine-learning-for-programmers/#comment-358985)，这意味着每个学生一开始就能参与一些现有项目与一些问题，并练习（解决）它们以熟悉传统的方法是怎么做的。在有了一些简单的练习经验之后，他们就可以开始钻进书里去学习理论知识。这些理论知识将帮助他们在将来进行更进一步的训练，充实他们解决实际问题的工具箱。学习理论知识还会加深他们对那些简单练习的理解，帮助他们更快地获得进阶的经验。
 
 这是一个很长的计划，它花去了我一年的时间。如果你已经对它有所了解了，它将会让你省去很多时间。
 
@@ -86,20 +86,16 @@
 [了解更多有关 Github-flavored markdown的知识](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Follow me
-我是一名非常非常想去美国工作的越南软件工程师。
+我是一名软件工程师。
 
-我在这份计划中花多少时间？在每天的艰辛工作完成后，每晚花4小时。
+我在这份计划中花多少时间？在每天的工作完成后，多花4个小时。
 
 我已经在实现梦想的旅途中了。
 
-- Twitter: [@Nam Vu](https://twitter.com/zuzoovn)
-
-| ![Nam Vu - Top-down learning path: machine learning for software engineers](http://sv1.upsieutoc.com/2016/10/08/331f241c8da44d0c43e9324d55440db6.md.jpg)|
-|:---:|
-| USA as heck |
+- GitHub: [@John Zhang](https://github.com/OctopusNO1)
 
 ## 别认为自己不够聪明
-当我打开书本，发现他们告诉我多元微积分、统计与推理、线性代数是学习机器学习的先决条件的时候，我非常沮丧。因为我不知道从哪儿开始…
+当我打开书本，发现他们告诉我多元微积分、统计与推理、线性代数是学习机器学习的先决条件的时候，我非常兴奋，因为我从小就喜欢数学。可以参考以下文章…
 
 - [我数学不好怎么办](http://machinelearningmastery.com/what-if-im-not-good-at-mathematics/)
 - [没有数学专业背景而理解机器学习算法的5种技巧](http://machinelearningmastery.com/techniques-to-understand-machine-learning-algorithms-without-the-background-in-mathematics/)
@@ -113,7 +109,7 @@
 
 这个小章节是一些在每日计划开始前我想去了解的一些预备知识与一些有趣的信息。
 
-- [ ] [Data Analytics，Data Analysis，数据挖掘，数据科学，机器学习，大数据的区别是什么？](https://www.quora.com/What-is-the-difference-between-Data-Analytics-Data-Analysis-Data-Mining-Data-Science-Machine-Learning-and-Big-Data-1)
+- [x] [Data Analytics，Data Analysis，数据挖掘，数据科学，机器学习，大数据的区别是什么？](https://www.quora.com/What-is-the-difference-between-Data-Analytics-Data-Analysis-Data-Mining-Data-Science-Machine-Learning-and-Big-Data-1)
 - [ ] [学习如何去学习](https://www.coursera.org/learn/learning-how-to-learn)
 - [ ] [不要斩断锁链](http://lifehacker.com/281626/jerry-seinfelds-productivity-secret)
 - [ ] [如何自学](https://metacademy.org/roadmaps/rgrosse/learn_on_your_own)
@@ -207,8 +203,8 @@
     - [GitHub repository](https://github.com/amueller/introduction_to_ml_with_python)
 - [ ] [数据挖掘: 机器学习工具与技术实践，第 3 版](https://www.amazon.com/Data-Mining-Practical-Techniques-Management/dp/0123748569)
     - Teaching material
-        - [1-5 章幻灯片(zip)](http://www.cs.waikato.ac.nz/ml/weka/Slides3rdEd_Ch1-5.zip)
-        - [6-8 章幻灯片(zip)](http://www.cs.waikato.ac.nz/ml/weka/Slides3rdEd_Ch6-8.zip)
+            - [1-5 章幻灯片(zip)](http://www.cs.waikato.ac.nz/ml/weka/Slides3rdEd_Ch1-5.zip)
+                    - [6-8 章幻灯片(zip)](http://www.cs.waikato.ac.nz/ml/weka/Slides3rdEd_Ch6-8.zip)
 - [ ] [Machine Learning in Action](https://www.amazon.com/Machine-Learning-Action-Peter-Harrington/dp/1617290181/)
     - [GitHub repository](https://github.com/pbharrin/machinelearninginaction)
 - [ ] [Reactive Machine Learning Systems(MEAP)](https://www.manning.com/books/reactive-machine-learning-systems)
@@ -216,7 +212,7 @@
 - [ ] [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
     - [GitHub repository(R)](http://www-bcf.usc.edu/~gareth/ISL/code.html)
     - [GitHub repository(Python)](https://github.com/JWarmenhoven/ISLR-python)
-    - [视频](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
+        - [视频](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
 - [ ] [使用 Python 构建机器学习系统](https://www.packtpub.com/big-data-and-business-intelligence/building-machine-learning-systems-python)
     - [GitHub repository](https://github.com/luispedro/BuildingMachineLearningSystemsWithPython)
 - [ ] [学习 scikit-learn: 用 Python 进行机器学习](https://www.packtpub.com/big-data-and-business-intelligence/learning-scikit-learn-machine-learning-python)
@@ -251,7 +247,7 @@
 - [ ] [mathematicalmonk's Machine Learning tutorials](https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA)
 - [ ] [Machine learning in Python with scikit-learn](https://www.youtube.com/playlist?list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A)
     - [GitHub repository](https://github.com/justmarkham/scikit-learn-videos)
-    - [博客](http://blog.kaggle.com/author/kevin-markham/)
+        - [博客](http://blog.kaggle.com/author/kevin-markham/)
 - [ ] [播放清单 - YouTuBe 上最热门的机器学习、神经网络、深度学习视频](https://www.analyticsvidhya.com/blog/2015/07/top-youtube-videos-machine-learning-neural-network-deep-learning/)
 - [ ] [16 个必看的机器学习教程](https://www.analyticsvidhya.com/blog/2016/10/16-new-must-watch-tutorials-courses-on-machine-learning/)
 - [ ] [DeepLearning.TV](https://www.youtube.com/channel/UC9OeZkIwhzfv-_Cb7fCikLQ)
@@ -281,7 +277,7 @@
 - [ ] [6.S094: 自动驾驶的深度学习](http://selfdrivingcars.mit.edu/)
 - [ ] [6.S191: 深度学习简介](http://introtodeeplearning.com/index.html)
 - [ ] [Coursera 深度学习教程](https://www.coursera.org/specializations/deep-learning)
- 
+
 ## 资源
 - [ ] [一个月学会机器学习](https://elitedatascience.com/machine-learning-masterclass)
 - [ ] [一份“非技术性”的机器学习与人工智能指南](https://medium.com/@samdebrule/a-humans-guide-to-machine-learning-e179f43b67a0#.cpzf3a5c0)
@@ -322,12 +318,12 @@
         - [2016年7月](https://medium.mybridge.co/top-ten-machine-learning-articles-for-the-past-month-9c1202351144#.lyycen64y)
         - [2016年8月](https://medium.mybridge.co/machine-learning-top-10-articles-for-the-past-month-2f3cb815ffed#.i9ee7qkjz)
         - [2016年9月](https://medium.mybridge.co/machine-learning-top-10-in-september-6838169e9ee7#.4jbjcibft)
-        - [2016年10月](https://medium.mybridge.co/machine-learning-top-10-articles-for-the-past-month-35c37825a943#.td5im1p5z)
-        - [2016年11月](https://medium.mybridge.co/machine-learning-top-10-articles-for-the-past-month-b499e4213a34#.7k39i08tv)
-        - [2016年](https://medium.mybridge.co/machine-learning-top-10-of-the-year-v-2017-7552599935c0#.wtx2mchqn)
+                - [2016年10月](https://medium.mybridge.co/machine-learning-top-10-articles-for-the-past-month-35c37825a943#.td5im1p5z)
+                        - [2016年11月](https://medium.mybridge.co/machine-learning-top-10-articles-for-the-past-month-b499e4213a34#.7k39i08tv)
+                                            - [2016年](https://medium.mybridge.co/machine-learning-top-10-of-the-year-v-2017-7552599935c0#.wtx2mchqn)
     - 算法
         - [2016年9月](https://medium.mybridge.co/algorithm-top-10-articles-in-september-8a0e6afb0807#.hgjzuyxdb)
-        - [2016年10月-11月](https://medium.mybridge.co/algorithm-top-10-articles-v-november-e73cba2fa87e#.kothimkhb)
+                - [2016年10月-11月](https://medium.mybridge.co/algorithm-top-10-articles-v-november-e73cba2fa87e#.kothimkhb)
 - [全面的数据科学家的资源](http://www.datasciencecentral.com/group/resources/forum/topics/comprehensive-list-of-data-science-resources)
 - [DigitalMind的人工智能资源](http://blog.digitalmind.io/post/artificial-intelligence-resources)
 - [令人惊叹的机器学习](https://github.com/josephmisiti/awesome-machine-learning)
